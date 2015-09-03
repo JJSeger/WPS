@@ -1,0 +1,68 @@
+/*changing text*/
+h1 {
+    text-align:center;
+    color: #0619fc;
+    text-shadow: 0.063em 0.063em #FCF8F7;
+    font-style: oblique;
+}
+
+
+
+/*centering text*/
+h2{
+    text-align:center;
+    color: #0619fc;
+    text-shadow: 0.063em 0.063em #FCF8F7;
+    font-style: oblique;
+
+}
+
+/*centering page and adding round corners and shadow*/
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.125em solid;
+    border-radius: 0.938em;
+    box-shadow: 0.313em 0.313em #0619fc;
+
+}
+h1 p{
+
+ : url("../img/JUDD PIC.jpg");
+
+}
+
+
+
+
+
+/* main class inside footer-sets the box size*/
+.footerWrap {
+    width:100%;
+    position:relative;
+    bottom: 0em;
+}
+
+/*class inside the footerWrap class-sets the inside margin around text*/
+.footer {
+    width:25em;
+    margin:auto;
+}
+
+/*class inside the footer class-controls where the text is positioned inside the box*/
+.footerContent {
+    float:left;
+    width:100%;
+    padding:auto auto;
+    padding-top:0.625em;
+    height: 0.0625em;
+}
+
+/*controls the footer text*/
+.footer p {
+    float:left;
+    width:100%;
+    text-align:center;
+}
+
