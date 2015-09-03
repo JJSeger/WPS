@@ -1,17 +1,26 @@
 /*changing text*/
 h1 {
     float :left;
-
+    margin-left:15%;
     text-align:center;
     color: #FF680D;
     text-shadow: 0.063em 0.063em #6D7078;
     font-style: oblique;
 }
 
+#main{
+    width: 25%;
+    height:10%;
+    float:right;
 
+    margin-right:15%;
+}
 
 /*centering text*/
 h2{
+    margin-right:20%;
+    float:right;
+    clear:left;
     text-align:center;
     color: #FF680D;
     text-shadow: 0.063em 0.063em #6D7078;
@@ -31,37 +40,21 @@ body {
     background-color:#000000;
 }
 
-
-
-
-
-
-/* main class inside footer-sets the box size*/
-.footerWrap {
-    width:100%;
-    position:relative;
-    bottom: 0em;
+section{
+    
+    width:90%;
+    height:10%;
 }
-
-/*class inside the footerWrap class-sets the inside margin around text*/
-.footer {
-    width:25em;
-    margin:auto;
-}
-
-/*class inside the footer class-controls where the text is positioned inside the box*/
-.footerContent {
-    float:left;
-    width:100%;
-    padding:auto auto;
-    padding-top:0.625em;
-    height: 0.0625em;
-}
-
-/*controls the footer text*/
-.footer p {
-    float:left;
-    width:100%;
+article{
     text-align:center;
+    padding: 2%;
+    margin:20px auto;
 }
+
+img{
+    margin:auto auto;
+    width:100%;
+}
+
+
 
