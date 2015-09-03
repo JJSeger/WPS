@@ -1,8 +1,10 @@
 /*changing text*/
 h1 {
+    float :left;
+
     text-align:center;
-    color: #0619fc;
-    text-shadow: 0.063em 0.063em #FCF8F7;
+    color: #FF680D;
+    text-shadow: 0.063em 0.063em #6D7078;
     font-style: oblique;
 }
 
@@ -11,27 +13,24 @@ h1 {
 /*centering text*/
 h2{
     text-align:center;
-    color: #0619fc;
-    text-shadow: 0.063em 0.063em #FCF8F7;
+    color: #FF680D;
+    text-shadow: 0.063em 0.063em #6D7078;
     font-style: oblique;
 
 }
 
 /*centering page and adding round corners and shadow*/
 body {
+    height:100%;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     border: 0.125em solid;
     border-radius: 0.938em;
-    box-shadow: 0.313em 0.313em #0619fc;
-
+    box-shadow: 0.313em 0.313em #FF680D;
+    background-color:#000000;
 }
-h1 p{
 
- : url("../img/JUDD PIC.jpg");
-
-}
 
 
 
