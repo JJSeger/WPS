@@ -15,13 +15,23 @@ h1 {
 
     margin-right:15%;
 }
-
-/*centering text*/
-h2{
+#name{
+    text-align:center;
     margin-right:20%;
     float:right;
     clear:left;
+    color: #FF680D;
+    text-shadow: 0.063em 0.063em #6D7078;
+    font-style: oblique;
+
+}
+/*centering text*/
+h2{
     text-align:center;
+    margin-left:10%;
+    float:left;
+    clear:right;
+
     color: #FF680D;
     text-shadow: 0.063em 0.063em #6D7078;
     font-style: oblique;
@@ -32,6 +42,7 @@ h2{
 body {
     height:100%;
     width: 90%;
+    padding-top: 5%;
     margin-left: auto;
     margin-right: auto;
     border: 0.125em solid;
@@ -41,20 +52,42 @@ body {
 }
 
 section{
-    
+    border:5px solid #FF680D;
     width:90%;
     height:10%;
+    margin-bottom: 10px;
+    margin-Left:4%;
+    margin-right: auto;
 }
 article{
+    color:#ffffff;
     text-align:center;
     padding: 2%;
-    margin:20px auto;
+    width:90%;
+    height:20%;
+
+}
+ #bio{
+
+    color:#ffffff;
+    clear:both;
+    width: 75%;
+    margin:5px auto;
 }
 
 img{
-    margin:auto auto;
-    width:100%;
+
+    width:75%;
+    height:20%;
+    margin-left: 12%;
+
 }
 
+html{
+    background-color: #adadad;
+}
 
-
+#num1{
+    color: #FF680D;
+    text-shadow: 0.063em 0.063em #6D7078;
+}
