@@ -1,0 +1,119 @@
+/* Project CSS 
+============================================================
+============================================================*/
+
+/*centering text*/
+h2{
+    text-align:center;
+    margin-left:10%;
+    float:left;
+    clear:right;
+
+    color: #FF680D;
+    text-shadow: 0.063em 0.063em #6D7078;
+    font-style: oblique;
+
+}
+
+/*centering page and adding round corners and shadow*/
+body {
+    height:100%;
+    width: 90%;
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.125em solid;
+    border-radius: 0.938em;
+    box-shadow: 0.313em 0.313em #FF680D;
+    background-color:#000000;
+}
+/*changing text*/
+h1 {
+    float :left;
+    margin-left:15%;
+    text-align:center;
+    color: #FF680D;
+    text-shadow: 0.063em 0.063em #6D7078;
+    font-style: oblique;
+}
+/*Main image at the top*/
+#main{
+    width: 25%;
+    height:10%;
+    float:right;
+
+    margin-right:15%;
+}
+/*this positions the name under the very top image*/
+#name{
+    text-align:center;
+    margin-right:20%;
+    float:right;
+    clear:left;
+    color: #FF680D;
+    text-shadow: 0.063em 0.063em #6D7078;
+    font-style: oblique;
+
+}/*This positions and provides a border for each section*/
+section{
+    border:5px solid #FF680D;
+    width:90%;
+    height:10%;
+    margin-bottom: 10px;
+    margin-Left:4%;
+    margin-right: auto;
+}
+/*This aligns and colors the text for all the articles */
+article{
+    color:#ffffff;
+    text-align:center;
+    padding: 2%;
+    width:90%;
+    height:20%;
+
+}
+/*This colors the text for the biography*/
+#bio{
+
+    color:#ffffff;
+    clear:both;
+    width: 75%;
+    margin:5px auto;
+}
+/*This sizes and positions the images*/
+img{
+
+    width:75%;
+    height:20%;
+    margin-left: 12%;
+
+}
+/*This colors the background of the html doc that rest below the body element*/
+html{
+    background-color: #adadad;
+}
+
+/*This colors the "content Visualization" text for each section*/
+#num1,#num2,#num3,#num4,#num5{
+    color: #FF680D;
+    text-shadow: 0.063em 0.063em #6D7078;
+}
+
+/*This styles the "Click to View Component buttons*/
+#but1,#but2,#but3,#but4,#but5{
+    display: inline-block;
+    padding: 10px  20px;
+    background-color: #FF680D;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    margin-left: 40%;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 2px #ababab;
+
+}/*This styles the "Click to View Component buttons*/
+#but1:hover,#but2:hover,#but3:hover,#but4:hover,#but5:hover {
+    transform: skewX(30deg);
+    background-color: #00FF00;
+}
+
