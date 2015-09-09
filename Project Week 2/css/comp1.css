@@ -1,0 +1,50 @@
+#headLogo{
+
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height:50px;
+    width:50%
+
+
+
+}
+
+nav {
+    border-radius:0.500em;
+    text-align: center;
+    padding: 0;
+    background: #ffffff;
+}
+
+.nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    overflow: auto;
+
+}
+.nav li {
+    display: inline-block;
+    margin-top:10%;
+    margin-left:3%;
+    padding: 0;
+    width: auto;
+    height: 3.125em ;
+    line-height: 50%;
+    font-size: 35px;
+    font-family: 'Andale Mono', sans-serif;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: #66512c;
+    display: block;
+    transition: .3s background-color;
+}
+
+.nav a:hover {
+    background-color: #adadad;
+}
