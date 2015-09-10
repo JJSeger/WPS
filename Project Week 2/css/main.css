@@ -3,7 +3,7 @@
 ============================================================*/
 
 /*centering text*/
-h2{
+#h2index{
     text-align:center;
     margin-left:10%;
     float:left;
@@ -16,7 +16,7 @@ h2{
 }
 
 /*centering page and adding round corners and shadow*/
-body {
+#bodyIndex {
     height:100%;
     width: 90%;
     padding-top: 5%;
@@ -28,8 +28,8 @@ body {
     background-color:#000000;
 }
 /*changing text*/
-h1 {
-    float :left;
+#h1index {
+    float:left;
     margin-left:15%;
     text-align:center;
     color: #FF680D;
@@ -89,7 +89,7 @@ img{
 
 }
 /*This colors the background of the html doc that rest below the body element*/
-html{
+#htmlIndex{
     background-color: #adadad;
 }
 

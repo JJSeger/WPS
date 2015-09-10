@@ -2,7 +2,7 @@
 /*----------------The following is for the cta component------------------------*/
 
 
-body{
+#bodyCTA{
     margin-top:150px;
     background-image:url("../img/kitchen.jpg");
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ body{
     font-family: 'Baskerville Regular',"Times New Roman" ;
     color:#ffffff;
 }
-h1{
+#h1CTA{
     margin-top:150px;
     margin-left:5%;
     margin-bottom: -25px;
@@ -31,7 +31,7 @@ h1{
 
 
 }
-h2{
+#h2CTA{
     padding-top: 5px;
     margin-top:2px;
     margin-left: 20%;
@@ -47,7 +47,7 @@ h2{
 
 }
 
-h3{
+#h3CTA{
     margin-top:80px;
     margin-left:19%;
     width:60%;
