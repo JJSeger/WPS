@@ -19,3 +19,18 @@
     margin-left:15%;
     margin-right:auto;
 }
+#num1,#num2,#num3,#num4{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+#num1,#num2{
+    float:left;
+    clear:left;
+
+}
+#num3,#num4{
+    float:right;
+    clear:right;
+
+}
