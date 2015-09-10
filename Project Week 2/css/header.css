@@ -50,35 +50,6 @@ nav {
 .nav a:hover {
     background-color: #adadad;
 }
-/*----------------The following is for the cta component------------------------*/
 
 
 
-
-#cta{
-    background-image:url("../img/kitchen.jpg");
-    text-align:center;
-    height:80%;
-    width:100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding:140px;
-    font-family: 'Baskerville Regular',"Times New Roman";
-    color:#ffffff;
-}
-h1{
-
-    width:80%;
-    font-size:25pt;
-	font-weight:lighter;
-    text-align:center;
-
-}
-h2{
-    margin-left:7%;
-    width:60%;
-    font-size:50pt;
-	font-weight:lighter;
-    text-align:center;
-
-}
