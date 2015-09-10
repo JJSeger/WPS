@@ -1,3 +1,8 @@
+
+
+/*----------------The following is for the header component------------------------*/
+
+
 #headLogo{
 
     text-align:center;
@@ -6,9 +11,6 @@
     margin-top: 5%;
     height:50px;
     width:50%
-
-
-
 }
 
 nav {
@@ -47,4 +49,27 @@ nav {
 
 .nav a:hover {
     background-color: #adadad;
+}
+/*----------------The following is for the cta component------------------------*/
+
+
+
+
+#cta{
+    background-image:url("../img/kitchen.jpg");
+    text-align:center;
+    margin-top: 5%;
+    height:80%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+h1{
+    font-family: 'Baskerville Regular';
+    font-size:25pt;
+    text-align:center;
+    color:#ffffff;
+    margin-bottom: 20%;
+
 }
