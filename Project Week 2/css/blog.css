@@ -1,0 +1,21 @@
+
+#outBox{
+    width:1400px;
+    height:700px;
+    margin-top:6%;
+    margin-left:15%;
+    margin-right:auto;
+    position: fixed;
+    background-color: #b9b8a7;
+}
+#inBox{
+    width:1200px;
+    height:400px;
+    margin-left:8%;
+    margin-top:5.5%;
+    margin-right:auto;
+    background-color: #ffffff;
+    box-shadow:1px 1px #b5b5b5;
+
+}
+
