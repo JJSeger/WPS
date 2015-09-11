@@ -1,6 +1,7 @@
 /*------------------------Styles the entire html---------------*/
 #htmlFea{
     font-family: 'Baskerville Regular',"Times New Roman" ;
+
 }
 
 
@@ -21,8 +22,8 @@
     background-color: #131b25;
     height:500px;
     width:1400px;
-    margin-left:2%;
-    margin-right:2%;
+    margin-left:15%;
+    margin-right:auto;
     position: fixed;
 }
 /*----------------------Styles the main title-----------------------*/
