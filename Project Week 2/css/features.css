@@ -1,9 +1,9 @@
 #bodyFea{
     height:100%;
     width:90%;
-    background-color: #ffffff;
-
-
+    /*background-color: #ffffff;
+*/
+    background-color: #131b25;
 
 
 
@@ -35,45 +35,65 @@
 }
 
 #num2,#num4{
-    margin-left:20%;
+    margin-left:30%;
 
 }
 #num1,#num3{
+    float:left;
     margin-left:18%;
 
 }
 #num3,#num4{
     margin-top: 25px;
 }
+
+
+
+
+
 #h2Fea1,#h2Fea2,#h2Fea3,#h2Fea4{
     margin-top: 0;
     border: 5px solid #ffffff;
     padding: 0;
     color: #ffffff;
     margin-left: 80px;
-    width: auto;
-    height:auto;
+
 }
 #pFea1,#pFea2,#pFea3,#pFea4{
     border: 5px solid #ffffff;
-    padding: 0;
     color: #ffffff;
     margin-left: 80px;
-    width: auto;
-    height:auto;
+    width: 150px;
+
 }
+
+/*-----------position the text next to image #num1----------------------*/
 #h2Fea1,#pFea1{
-    float:left;
+    margin-bottom: 0;
+    margin-left:28%;
+    margin-right:50%;
+    width:400px;
+ }
+#divFea2{
+    clear:left;
+    display:inline;
+    margin-left:10%;
 }
-
 #pFea1{
-    float:left;
-    /*clear:left;*/
-    margin-left:5%;
-    margin-top: 0;
+    margin-top:-20px;
 }
 
-#num1,#h2Fea1,#pFea1{
-     float:left;
-
+#h2Fea1,#pFea1{
+    margin-bottom: 0;
+    margin-left:28%;
+    margin-right:50%;
+    width:400px;
+}
+#divFea2{
+    clear:left;
+    display:inline;
+    margin-left:10%;
+}
+#pFea1{
+    margin-top:-20px;
 }
