@@ -1,15 +1,16 @@
-
+/*----------------------------------------sets font----------------------------*/
 #htmlBlog{
 
     font-family: 'Arial',"Times New Roman" ;
 }
-
+/*----------------------------------------styles page----------------------------*/
 #outBox{
     height:2400px;
     width:1800px;
     background-color:#ffffff;
     position: absolute;
 }
+/*----------------------------------------styles the image used for the conversation bubble----------------------------*/
 #bubble{
 
     width:90%;
@@ -20,23 +21,24 @@
 
 
 }
-
+/*---------------------------------------places the image----------------------------*/
 #man{
     height:320px;
     width:290px;
-
     position: relative;
     margin-left:12%;
     margin-right:auto;
-    margin-top:10%
+    margin-top:10.2%
 
 }
+/*----------------------------------------sets font----------------------------*/
 #h1Blog{
     font-weight: bold;
     margin-left:35%;
     margin-right:auto;
     margin-top:-15%
 }
+/*----------------------------------------sets font----------------------------*/
 #pBlog{
     height:320px;
     width:750px;
@@ -48,10 +50,11 @@
     margin-right:auto;
     margin-top:2%
 }
+/*----------------------------------------sets font----------------------------*/
 #inboxBlog{
     position: relative;
 }
-
+/*----------------------------------------sets font----------------------------*/
 #h2Blog{
     height:320px;
     width:750px;
