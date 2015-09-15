@@ -1,133 +1,283 @@
 <!DOCTYPE html>
 
-<html lang="en">
-
-<link rel="stylesheet" href="css/style.css">
-
-<!--font reference-->
-<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
-<header>        <!--header opener-->
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <meta charset="utf-8"/>
-        <title>Judd Seger Project Week 1</title>    <!--Title in the tab-->
-    </head>
-
-
-    <h1>
-
-        <strong>THE MAN <br></strong><br>
-        <strong>THE MYTH<br></strong><br>
-        <strong>THE LEGEND...</strong>
-
-    </h1>
-    <img id ="main" src="img/JUDD PIC.jpg" alt="" class = "img-responsive">
-
-    <h2 id = "name">
-        <strong>JUDD SEGER</strong>
-    </h2>               <!--heading 2-->
-</header><!--header closer-->
-
-
-<article id ="bio">Hello! If you do not know who I am already - My name is
-    Judd Seger and I am from a little "hole in the wall" town in Pennsylvania.
-    I am married and have a very energetic ten year old son. I have a programming
-    background and have used languages that include C++, Java, JavaScript,
-    Visual C++, and Visual Basic among others. I also enjoy using Linux systems
-    and have some experience with a few of those as well. I absolutely love
-    technology and I enjoy being on the "tip of the sword" with everything that is new.
-</article>
+    <html id = "htmlIndex" lang="en">
 
 
 
-<body>         <!--body opener-->
-    <section><!--section opener-->
-        <h2>HEADER</h2><!--h2 element-->
-        <img src="img/header.jpg" alt="" class = "img-responsive">><!--image for header-->
-        <!--Below is the article for the header-->
-        <article><strong>HEADER</strong><br><p>
-            As with most other headers, a company brand logo is included and is usually located in the upper left
-            part of the header. As you can see by my example the layout is flexible, in this case the company brand is
-            located in the center of the header. Users are able to access different parts of the site using links
-            that are also located in the header as well. These additional links are typically located to the right of the logo
-            in the case of my example header the additional links are locate beneath.</p>
-            <br>
-            <strong id = "num1">Content Visualization:<br></strong>
-            <p>Headers are the most frequent location for global navigation links that span the site. The ideal arrangement is to
-            use an html list of links, styled with css to spread horizontally across a section of the header</p>
-        </article><!--article closer-->
-    </section><!--section closer-->
+                                <!--font reference-->
+    <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
 
 
 
-    <section><!--section opener-->
-        <h2>CALL TO ACTION</h2><!--h2 element-->
-        <img src="img/cta.jpg" alt="" class = "img-responsive"><!--image for CTA-->
-        <!--Below is the article for the CTA-->
-        <article><strong>CALL TO ACTION</strong><br>
-            <p>A CTA can be a simple non-demanding request like "choose a color"
-            or "watch this video", or a much more demanding request like "Buy Now!". Typical CTA
-            work by requesting the audience to purchase a product or provide
-            personal details and contact information.</p>
-            <strong id = "num2">Content Visualization:<br></strong>
-            <p>This call to action is a fairly simple one consisting of some text and an image. Typically call to Actions also include a link or button.</p>
-        </article><!--article closer-->
-    </section><!--section closer-->
+        <head><!--head opener-->
 
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <meta charset="utf-8"/>
 
-    <section><!--section opener-->
-        <h2>Features</h2><!--h2 element-->
-        <img src="img/features.jpg" alt="" class = "img-responsive">><!--image for features-->
-        <article><strong>FEATURES</strong><br>
-            <p>Some features that are typically a part of most websites.<br>
-                <strong>Store: </strong> A storefront allows you to sell products on your website. If you sell products
-                an online store will let your customers purchase your material through your website.<br>
-                <strong>Content Management System: </strong> A website content manager allows you to change the contents of your website.<br>
-            </p>
-            <strong id = "num3">Content Visualization:<br></strong>
-            <p>In this example it look like there is obviously text and could also possibly be links.
-                Links - within a features section - would be beneficial to permit your users to go into more depth as to your features that you are promoting.</p>
-        </article><!--article closer-->
-    </section><!--section closer-->
-
-
-
-    <section><!--section opener-->
-        <h2>BLOG</h2><!--h2 element-->
-        <img src="img/blog.jpg" alt="" class = "img-responsive">><!--image for blog-->
-        <!--Below is the article for the blog-->
-        <article><strong>Blog</strong><br><p> A blog is a discussion forum where
-            you can make posts and people can post comments and others can post replies to those comments.
-            One of the benefits of a blog is that it keeps people reading your material.
-            A disadvantage is that you have to make relevant posts and also monitor the responses.</p>
-            <strong id = "num4">Content Visualization:<br></strong>
-            <p>There are many ways that a blog can b developed, you can make scrolling testimonial box (something like a slideshow) by using
-                a standard Gallery Block and nest an image with captions.</p>
-        </article><!--article closer-->
-    </section><!--section closer-->
+            <link rel="stylesheet" type="text/css" href="css/main.css" /><!--Links the stylesheet----->
+            <link rel="stylesheet" type="text/css" href="css/header.css" /><!--Links the stylesheet----->
+            <link rel="stylesheet" type="text/css" href="css/cta.css" /><!--Links the stylesheet----->
+            <link rel="stylesheet" type="text/css" href="css/features.css" /><!--Links the stylesheet----->
+            <link rel="stylesheet" type="text/css" href="css/blog.css" /><!--Links the stylesheet----->
+            <link rel="stylesheet" type="text/css" href="css/footer.css" /><!--Links the stylesheet----->
 
 
 
 
-    <section><!--section opener-->
-        <h2>FOOTER</h2><!--h2 element-->
-        <img src="img/footer.jpg" alt="" class = "img-responsive">><!--image for footer-->
-                    <!--Below is the article for the footer-->
-        <article><strong>Footer</strong><br>
-            <p>A footer is an area at the bottom of a document page that
-                contains information, links etc. that is related to the content
-                on the websites pages.
-            </p>
-            <strong id = "num5">Content Visualization:<br></strong>
-            <p> The footer is typically made up of a footer tag and the content within.
-            The content that a footer is comprised of varies from website to website but typically
-            has an "About Us" Link, Contact Us Link, the websites Terms of Service, Privacy Policy, Site
-            Map and the Contact Details. Developers will also use the footer area to include information
-            about where the site was developed and who developed it.
-            </p>
-        </article><!--article closer-->
-    </section><!--section closer-->
 
+
+            <title>WSP:Judd Seger</title><!--Title in the tab-->
+
+        </head><!--head closer-->
+
+
+        <h1 id = "h1index"><!--Opening h1 tag-------->
+
+
+            <!--below puts text on the left side of the very top image-------->
+            <strong>THE MAN <br></strong><br>
+            <strong>THE MYTH<br></strong><br>
+            <strong>THE LEGEND...</strong>
+
+        </h1><!--h1 closer-->
+
+        <img id ="main" src="img/JUDD PIC.jpg" alt="" class = "img-responsive">
+
+        <h2 id = "name"><!--heading 2 opening tag-->
+            <strong class="blink">JUDD SEGER</strong>
+        </h2>               <!--heading 2 closing tag-->
+
+
+
+<!-------------Intro Article-------------->
+    <article id ="bio">Hello! <i><strong>If you do not know who I am already </strong></i> - My name is
+        Judd Seger and I am from a little "hole in the wall" town in Pennsylvania.
+        I am married and have a very energetic ten year old son. I have a programming
+        background and have used languages that include C++, Java, JavaScript,
+        Visual C++, and Visual Basic among others. I also enjoy using Linux systems
+        and have some experience with a few of those as well. I absolutely love
+        technology and I enjoy being on the "tip of the sword" with everything that is new.
+    </article>
+
+
+
+    <body id = "bodyIndex">         <!--body opener-->
+
+
+        <section id = "secIndex1"><!--section opener-->
+
+            <h2 id = "h2index1">HEADER</h2><!--h2 element-->
+
+            <img src="img/header.jpg" alt="" class = "img-responsive">><!--image for header-->
+
+
+            <!--Below is the article for the header-->
+
+            <article><strong>HEADER</strong><br><p>
+                As with most other headers, a company brand logo is included and is usually located in the upper left
+                part of the header. As you can see by my example the layout is flexible, in this case the company brand is
+                located in the center of the header. Users are able to access different parts of the site using links
+                that are also located in the header as well. These additional links are typically located to the right of the logo
+                in the case of my example header the additional links are locate beneath.</p>
+                <br>
+
+                <strong id = "CVnum1">Content Visualization:<br></strong>
+
+                <p>Headers are the most frequent location for global navigation links that span the site. The ideal arrangement is to
+                    use an html list of links, styled with css to spread horizontally across a section of the header</p>
+
+            </article><!--article closer-->
+
+
+            <!-------------------------form area that contains the button------------------------->
+
+            <form method ="link" action="header.html">
+                <input id ="but1" type="submit" value="Click Me To View Component">
+            </form>
+
+        </section><!--section closer-->
+
+
+
+
+
+
+
+
+
+
+
+       <!-------------------------HEADER Section------------------------->
+
+        <section id = "secIndex2"><!--section opener-->
+
+            <h2 id = "h2index2">CALL TO ACTION</h2><!--h2 element-->
+
+            <img src="img/cta.jpg" alt="" class = "img-responsive"><!--image for CTA-->
+
+            <!--Below is the article for the CTA-->
+            <article><strong>CALL TO ACTION</strong><br>
+
+                <p>A CTA can be a simple non-demanding request like "choose a color"
+                    or "watch this video", or a much more demanding request like "Buy Now!". Typical CTA
+                    work by requesting the audience to purchase a product or provide
+                    personal details and contact information.</p>
+                <strong id = "CVnum2">Content Visualization:<br></strong>
+
+                <p>This call to action is a fairly simple one consisting of some text and an image. Typically call to Actions also include a link or button.</p>
+
+            </article><!--article closer-->
+
+
+            <!-------------------------form area that contains the button------------------------->
+            <form method ="link" action="cta.html">
+                <input id ="but2" type="submit" value="Click Me To View Component">
+            </form><!--Form closing tag-->
+
+        </section><!--section closer-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-------------------------FEATURES Section------------------------->
+
+        <section id = "secIndex3"><!--section opener-->
+
+            <h2 id = "h2index3">Features</h2><!--h2 element-->
+
+            <img src="img/features.jpg" alt="" class = "img-responsive">><!--image for features-->
+
+            <article><strong>FEATURES</strong><br>
+
+                <p>Some features that are typically a part of most websites.<br>
+                    <strong>Store: </strong> A storefront allows you to sell products on your website. If you sell products
+                    an online store will let your customers purchase your material through your website.<br>
+                    <strong>Content Management System: </strong> A website content manager allows you to change the contents of your website.<br>
+                </p>
+
+                <strong id = "CVnum3">Content Visualization:<br></strong>
+
+                <p>In this example it look like there is obviously text and could also possibly be links.
+                    Links - within a features section - would be beneficial to permit your users to go into more depth as to your features that you are promoting.</p>
+
+            </article><!--article closer-->
+
+
+            <!-------------------------form area that contains the button------------------------->
+
+            <form method ="link" action="features.html">
+                <input id ="but3" type="submit" value="Click Me To View Component">
+            </form><!--Form closing tag-->
+
+
+        </section><!--section closer-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-------------------------BLOG Section------------------------->
+
+        <section id = "secIndex4"><!--section opener-->
+
+            <h2 id = "h2index4">BLOG</h2><!--h2 element-->
+
+            <img src="img/blog.jpg" alt="" class = "img-responsive">><!--image for blog-->
+
+            <!--Below is the article for the blog-->
+            <article><strong>Blog</strong><br>
+
+                <p> A blog is a discussion forum where
+                you can make posts and people can post comments and others can post replies to those comments.
+                One of the benefits of a blog is that it keeps people reading your material.
+                A disadvantage is that you have to make relevant posts and also monitor the responses.</p>
+
+                <strong id = "CVnum4">Content Visualization:<br></strong>
+
+                <p>There are many ways that a blog can b developed, you can make scrolling testimonial box (something like a slideshow) by using
+                    a standard Gallery Block and nest an image with captions.</p>
+
+            </article><!--article closer-->
+
+
+            <!-------------------------form area that contains the button------------------------->
+            <form method ="link" action="blog.html">
+                <input id ="but4" type="submit" value="Click Me To View Component">
+            </form><!--Form closing tag-->
+
+        </section><!--section closer-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-------------------------FOOTER Section------------------------->
+
+        <section id = "secIndex5"><!--section opener-->
+
+            <h2 id = "h2index5">FOOTER</h2><!--h2 element-->
+
+            <img src="img/footer.jpg" alt="" class = "img-responsive"><!--image for footer-->
+
+            <!--Below is the article for the footer-->
+            <article><strong>Footer</strong><br>
+
+                <p>A footer is an area at the bottom of a document page that
+                    contains information, links etc. that is related to the content
+                    on the websites pages.
+                </p>
+
+                <strong id = "CVnum5">Content Visualization:<br></strong>
+
+                <p> The footer is typically made up of a footer tag and the content within.
+                    The content that a footer is comprised of varies from website to website but typically
+                    has an "About Us" Link, Contact Us Link, the websites Terms of Service, Privacy Policy, Site
+                    Map and the Contact Details. Developers will also use the footer area to include information
+                    about where the site was developed and who developed it.
+                </p>
+
+            </article><!--article closer-->
+
+            <!-------------------------form area that contains the button------------------------->
+            <form method ="link" action="footer.html">
+                <input id ="but5" type="submit" value="Click Me To View Component">
+            </form><!--Form closing tag-->
+
+        </section><!--section closer-->
 
 
 
@@ -144,4 +294,3 @@
 
 
 
-     
