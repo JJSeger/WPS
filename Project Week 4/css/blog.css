@@ -1,69 +1,88 @@
 /*----------------------------------------sets font----------------------------*/
 #htmlBlog{
-
+    background-color: #ffffff;
+    height:auto;
+    width:auto;
     font-family: 'Arial',"Times New Roman" ;
 }
 /*----------------------------------------styles page----------------------------*/
-#outBox{
-    height:2400px;
-    width:1800px;
-    background-color:#ffffff;
-    position: absolute;
+#bodyBlog{
+    height:45%;
+    width:75%;
+    background-color:#F4EDD3;
+    margin-left:15%;
+    margin-right:5%;
+    margin-top:2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom:auto;
+    position: relative;
 }
-/*----------------------------------------styles the image used for the conversation bubble----------------------------*/
-#bubble{
 
-    width:90%;
-    height:30%;
-    margin-left:5%;
-    margin-top:5.5%;
-    margin-right:auto;
-
-
-}
 /*---------------------------------------places the image----------------------------*/
 #man{
-    height:320px;
-    width:290px;
-    position: relative;
-    margin-left:12%;
+    height:70%;
+    width:20%;
+    margin-left:5%;
     margin-right:auto;
-    margin-top:10.2%
+    margin-top:6%
 
 }
 /*----------------------------------------styles the h1Blog element----------------------------*/
 #h1Blog{
-    font-weight: bold;
-    margin-left:35%;
+    height:70%;
+    width:70%;
+    float:right;
+    font-size: 20pt;
     margin-right:auto;
-    margin-top:-15%
+    margin-top:10%;
+
 }
 /*----------------------------------------styles the pBlog element----------------------------*/
-#pBlog{
-    height:320px;
-    width:750px;
-    font-size: 20pt;
+#sideBlog{
+    position: relative;
+    height:70%;
+    width:100%;
+
     font-weight: lighter;
-  /* border: 5px solid #000000;*/
-    padding:0;
-    margin-left:35%;
+   /* border: 5px solid #000000;*/
     margin-right:auto;
-    margin-top:2%
+    margin-top:2%;
+    margin-bottom: auto;
+
 }
 /*----------------------------------------styles the inboxBlog element----------------------------*/
-#inboxBlog{
+#articleBlog{
     position: relative;
+    margin-top:5%;
+    margin-left:10%;
+    padding-bottom: 5%;
+    margin-right:10%;
+    background-color:#ffffff;
+    height:70%;
+    width:80%;
 }
 /*----------------------------------------styles the h2Blog element----------------------------*/
 #h2Blog{
-    height:320px;
-    width:750px;
+    height:25%;
+    width:25%;
     font-size: 20pt;
     font-weight: bold;
     /* border: 5px solid #000000;*/
-    padding:0;
-    margin-left:75%;
+    margin-left:74%;
     margin-right:auto;
-    margin-top:2%
+    margin-top:3%;
 
+}
+/*----------------------------------------styles the arrow div ----------------------------*/
+
+
+.arrow-down {
+    width: 0;
+    height:0;
+    border-left: 60px solid transparent;
+    border-right:2px solid transparent;
+    margin-left: 80%;
+    margin-right: auto;
+    border-top: 50px solid #ffffff;
 }
