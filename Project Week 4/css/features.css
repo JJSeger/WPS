@@ -151,3 +151,31 @@
 #h2Fea4{
     margin-top:-11%;
 }
+
+/*-------------------------This styles the "Click to View Component buttons---------------------------*/
+#but:hover{
+    transform: skewX(30deg);
+    background-color: #00FF00;
+}
+form{
+
+    font-size: 20pt;
+    text-align: center;
+
+}
+#but {
+    color:#ffffff;
+    font-size: 20pt;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#131b25;
+    border-radius: 10px;
+    width: auto;
+    text-align: center;
+    margin-left: -80px;
+    margin-right: auto;
+    margin-top:15%;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 2px #ababab;
+}

@@ -86,3 +86,29 @@
     margin-right: auto;
     border-top: 50px solid #ffffff;
 }
+
+/*-------------------------This styles the "Click to View Component buttons---------------------------*/
+#but:hover{
+    transform: skewX(30deg);
+    background-color: #00FF00;
+}
+form{
+
+    font-size: 20pt;
+    text-align: center;
+
+}
+#but {
+    font-size: 20pt;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: auto;
+    text-align: center;
+    margin-left: -80px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 2px #ababab;
+}

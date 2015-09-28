@@ -118,7 +118,7 @@ img{
     margin-bottom: 30px;
     box-shadow: 2px 2px 2px #ababab;
 
-}/*--------------------------------------------This styles the "Click to View Component buttons*/
+}/*-------------------------This styles the "Click to View Component buttons---------------------------*/
 #but1:hover,#but2:hover,#but3:hover,#but4:hover,#but5:hover {
     transform: skewX(30deg);
     background-color: #00FF00;
@@ -145,7 +145,7 @@ to {
 opacity: 0;
 }
 }
-/*--------------------------------------------------------------------colors text in the "bio"*/
+/*------------------------------------------------colors text in the "bio"--------------*/
 i{
     color:#00FF00;
 }

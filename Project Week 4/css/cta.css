@@ -19,11 +19,11 @@
     color:#ffffff;
 }
 #h1CTA{
-    margin-top:150px;
+    margin-top:5%;
     margin-left:5%;
     margin-bottom: -25px;
     padding-bottom:0;
-    padding-top:20px;
+    padding-top:8%;
     width:90%;
     font-size:28pt;
     font-weight:lighter;
@@ -68,6 +68,32 @@ u{
 
 
 
+/*-------------------------This styles the "Click to View Component buttons---------------------------*/
+#but:hover{
+    transform: skewX(30deg);
+    background-color: #00FF00;
+}
+form{
+
+    font-size: 20pt;
+    text-align: center;
+
+}
+#but {
+    font-size: 20pt;
+    color: #ffffff;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5C3E1F;
+    border-radius: 10px;
+    width: auto;
+    text-align: center;
+    margin-left: -80px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 2px #ababab;
+}
 
 
 
