@@ -1,0 +1,153 @@
+/*------------------------Styles the entire html---------------*/
+#htmlFea{
+    font-family: 'Baskerville Regular',"Times New Roman" ;
+
+}
+
+
+
+
+/*----------------------------Styles the body-----------------*/
+#bodyFea{
+    height:100%;
+    width:100%;
+    background-color: #ffffff;
+
+
+}
+
+/*-----------------Styles the section content--------------------*/
+#FeaWrap{
+    margin-top: 200px;
+    background-color: #131b25;
+    height:500px;
+    width:1400px;
+    margin-left:15%;
+    margin-right:auto;
+    position: fixed;
+}
+/*----------------------Styles the main title-----------------------*/
+#h1Fea{
+    font-size: 45pt;
+    color:#ffffff;
+    margin-left: 11%;
+    padding: 0;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+/*----------------------Styles the images----------------------------*/
+#num1,#num2,#num3,#num4{
+
+    width: 115px;
+    height: 115px;
+}
+
+#num2,#num4{
+    margin-right:-15%;
+    margin-left:10%;
+
+}
+#num1,#num3{
+    margin-top:-12px;
+    margin-right:2px%;
+    float:left;
+    margin-left:10%;
+
+}
+#num3,#num4{
+    margin-top: 25px;
+}
+
+#num2{
+    float:right;
+    margin-top:-12%;
+    margin-right: 40%;
+}
+
+#num4{
+    margin-top:-12%;
+    margin-right: 40%;
+    float:right;
+}
+#num3{
+  margin-top:-10px;
+
+
+}
+/*-------------------styles the h2 elements-----------------------------------------------*/
+
+#h2Fea1,#h2Fea2,#h2Fea3,#h2Fea4{
+    margin-top: 0;
+    padding: 0;
+    color: #ffffff;
+    margin-left: 80px;
+
+}
+
+/*------------------------styles paragraphs------------------------------------------*/
+
+#pFea1,#pFea2,#pFea3,#pFea4{
+   /* border: 5px solid #ffffff;*/
+    color: #ffffff;
+    margin-left: 80px;
+    width: 150px;
+
+}
+
+/*-----------position the text next to image #num1----------------------*/
+#h2Fea1,#pFea1{
+
+    margin-left:20%;
+    margin-right:50%;
+    width:400px;
+    margin-top: 5px;
+
+ }
+
+#pFea1{
+
+    margin-top: 5px;
+}
+
+/*-----------position the text next to image #num2----------------------*/
+#h2Fea2,#pFea2{
+    margin-left:60%;
+    margin-right:70%;
+    width:400px;
+    margin-top:5px;
+}
+
+
+#h2Fea2{
+    margin-top:-11%;
+}
+/*-----------position the text next to image #num3----------------------*/
+
+#h2Fea3,#pFea3{
+
+    margin-left:20%;
+    margin-right:50%;
+    width:400px;
+    margin-top: 5px;
+
+}
+
+#pFea3{
+
+    margin-top: 5px;
+}
+
+
+/*-----------position the text next to image #num4----------------------*/
+#h2Fea4,#pFea4{
+
+    margin-left:60%;
+    margin-right:70%;
+    width:400px;
+    margin-top:5px;
+}
+
+
+#h2Fea4{
+    margin-top:-11%;
+}

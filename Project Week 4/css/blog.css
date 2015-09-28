@@ -1,0 +1,69 @@
+/*----------------------------------------sets font----------------------------*/
+#htmlBlog{
+
+    font-family: 'Arial',"Times New Roman" ;
+}
+/*----------------------------------------styles page----------------------------*/
+#outBox{
+    height:2400px;
+    width:1800px;
+    background-color:#ffffff;
+    position: absolute;
+}
+/*----------------------------------------styles the image used for the conversation bubble----------------------------*/
+#bubble{
+
+    width:90%;
+    height:30%;
+    margin-left:5%;
+    margin-top:5.5%;
+    margin-right:auto;
+
+
+}
+/*---------------------------------------places the image----------------------------*/
+#man{
+    height:320px;
+    width:290px;
+    position: relative;
+    margin-left:12%;
+    margin-right:auto;
+    margin-top:10.2%
+
+}
+/*----------------------------------------styles the h1Blog element----------------------------*/
+#h1Blog{
+    font-weight: bold;
+    margin-left:35%;
+    margin-right:auto;
+    margin-top:-15%
+}
+/*----------------------------------------styles the pBlog element----------------------------*/
+#pBlog{
+    height:320px;
+    width:750px;
+    font-size: 20pt;
+    font-weight: lighter;
+  /* border: 5px solid #000000;*/
+    padding:0;
+    margin-left:35%;
+    margin-right:auto;
+    margin-top:2%
+}
+/*----------------------------------------styles the inboxBlog element----------------------------*/
+#inboxBlog{
+    position: relative;
+}
+/*----------------------------------------styles the h2Blog element----------------------------*/
+#h2Blog{
+    height:320px;
+    width:750px;
+    font-size: 20pt;
+    font-weight: bold;
+    /* border: 5px solid #000000;*/
+    padding:0;
+    margin-left:75%;
+    margin-right:auto;
+    margin-top:2%
+
+}

@@ -1,0 +1,151 @@
+/* Project CSS 
+============================================================
+============================================================*/
+
+/*-------------------------------------------------changing text*/
+#h1index1,#h1index2,#h1index3,#h1index4,#h1index5{
+    float:left;
+    margin-left:15%;
+    font-size: 30pt;
+    text-align:center;
+    color: #FF680D;
+    text-shadow: 0.063em 0.063em #6D7078;
+    font-style: oblique;
+}
+/*--------------------------------------------------centering text*/
+#h1index {
+    text-align:center;
+    margin-left:10%;
+    float:left;
+    clear:right;
+    font-size: 30pt;
+    color: #FF680D;
+    text-shadow: 0.063em 0.063em #6D7078;
+    font-style: oblique;
+
+}
+
+/*----------------------------------centering page and adding round corners and shadow*/
+#bodyIndex {
+    height:100%;
+    width: 90%;
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.125em solid;
+    border-radius: 0.938em;
+    box-shadow: 0.313em 0.313em #FF680D;
+    background-color:#000000;
+}
+
+/*--------------------------------------------------------------Main image at the top*/
+#main{
+    width: 25%;
+    height:10%;
+    float:right;
+
+    margin-right:15%;
+}
+/*----------------------------------this positions the name under the very top image*/
+#name{
+
+    margin-right:20%;
+    float:right;
+    clear:both;
+    color: #FF680D;
+    text-shadow: 0.063em 0.063em #6D7078;
+    font-size: 30pt;
+    font-style: oblique;
+
+}/*--------------------------------This positions and provides a border for each section*/
+section{
+    border:5px solid #FF680D;
+    width:90%;
+    height:10%;
+    margin-bottom: 10px;
+    margin-Left:4%;
+    margin-right: auto;
+}
+/*-----------------------------------This aligns and colors the text for all the articles */
+article{
+    color:#ffffff;
+    text-align:center;
+    padding: 2%;
+    width:90%;
+    height:20%;
+
+}
+/*--------------------------------------------------This colors the text for the biography*/
+#bio{
+    font-size: 30pt;
+    color:#ffffff;
+    clear:both;
+    width: 75%;
+    margin:5px auto;
+}
+/*---------------------------------------------------This sizes and positions the images*/
+img{
+
+    width:75%;
+    height:20%;
+    margin-left: auto%;
+
+}
+/*---------------This colors the background of the html doc that rest below the body element*/
+#htmlIndex{
+    background-color: #adadad;
+}
+
+/*------------------------------This colors the "content Visualization" text for each section*/
+#CVnum1,#CVnum2,#CVnum3,#CVnum4,#CVnum5{
+    text-align: center;
+    color: #FF680D;
+    text-shadow: 0.063em 0.063em #6D7078;
+}
+
+/*------------------------------------------This styles the "Click to View Component buttons*/
+#but1,#but2,#but3,#but4,#but5{
+    font-size: 20pt;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px  20px;
+    background-color: #FF680D;
+    border-radius: 10px;
+    width:auto;
+    text-align: center;
+    margin-left:-80px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 2px #ababab;
+
+}/*--------------------------------------------This styles the "Click to View Component buttons*/
+#but1:hover,#but2:hover,#but3:hover,#but4:hover,#but5:hover {
+    transform: skewX(30deg);
+    background-color: #00FF00;
+}
+#secIndex1,#secIndex2,#secIndex3,#secIndex4,#secIndex5{
+    font-size: 20pt;
+    text-align: center;
+
+}
+
+/*--------------Gives a blinking effect to the #name element------------------------*/
+.blink {
+    animation-duration: 1s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes blink {
+    from {
+opacity: 1;
+}
+to {
+opacity: 0;
+}
+}
+/*--------------------------------------------------------------------colors text in the "bio"*/
+i{
+    color:#00FF00;
+}
