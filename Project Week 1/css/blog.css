@@ -1,3 +1,4 @@
+
 /*----------------------------------------sets font----------------------------*/
 #htmlBlog{
 
@@ -44,7 +45,7 @@
     width:750px;
     font-size: 20pt;
     font-weight: lighter;
-  /* border: 5px solid #000000;*/
+    /* border: 5px solid #000000;*/
     padding:0;
     margin-left:35%;
     margin-right:auto;
